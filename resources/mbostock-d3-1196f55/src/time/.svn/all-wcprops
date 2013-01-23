@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time
+END
+interval.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/interval.js
+END
+month.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/month.js
+END
+scale.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/scale.js
+END
+format.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/format.js
+END
+second.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/second.js
+END
+week.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/week.js
+END
+day.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/day.js
+END
+hour.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/hour.js
+END
+time.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/time.js
+END
+format-iso.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/format-iso.js
+END
+scale-utc.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/scale-utc.js
+END
+year.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/year.js
+END
+format-utc.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/format-utc.js
+END
+minute.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/time/minute.js
+END

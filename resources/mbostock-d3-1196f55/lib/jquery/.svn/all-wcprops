@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/lib/jquery
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/lib/jquery/LICENSE
+END
+jquery.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/lib/jquery/jquery.js
+END
+jquery.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/lib/jquery/jquery.min.js
+END

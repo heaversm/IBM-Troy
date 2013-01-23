@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'ITCLubalinGraphStdDemi';
+    src: url('../fonts/lubalin/lubalingraphstd-demi-webfont.eot');
+    src: url('../fonts/lubalin/lubalingraphstd-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.woff') format('woff'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.ttf') format('truetype'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.svg#ITCLubalinGraphStdDemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@time-spent-width: 835px;
+@time-spent-height: 738px;
+@padding-main-topbottom: ((25px / @time-spent-height) * @time-spent-height);
+@padding-main-leftright: ((33px / @time-spent-width) * @time-spent-width);
+@default-font-size: 16px;
+@background-blue: #054467;
+@default-text-color: #FFF;
+@hardware-color: #FCB715;
+@software-color: #86CDE6;
+@scroll-track: rgb(155, 180, 194);
+@scroll-handle: #FFF;
+@footer-color: #E6E7E8;
+@subdued-label-color: rgb(86, 124, 146);
+@HelveticaMed: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+@LubalinDemi: "ITCLubalinGraphStdDemi";
+
+.relative-font-size (@target, @context) {
+    font-size: (@target / @context) * @context;
+}
+
+.border-radius (@rad) { 
+    -moz-border-radius: @rad;
+    -webkit-border-radius: @rad;
+    -khtml-border-radius: @rad;
+    border-radius: @rad;
+}
+
+
+body, html, h1, h2 { margin:0; padding:0; }
+
+#cf { position:absolute; top:545px; left: 130px; }
+
+#time-spent {
+    width: @time-spent-width;
+    height: @time-spent-height;
+    background-color: @background-blue;
+    font: normal @default-font-size @HelveticaMed;
+    color: @default-text-color;
+}
+
+.container {
+    padding: @padding-main-topbottom @padding-main-leftright;
+}
+
+.header {
+    h1 {
+        font-family: @LubalinDemi, serif;
+        .relative-font-size(50px, @default-font-size);
+        font-weight: normal;
+    }
+
+    h2 {
+        .relative-font-size(18px, @default-font-size);
+        font-weight: normal;
+    }
+}
+
+.chart {
+    @height: 256px;
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    
+    .units {
+        position: relative;
+        width: 134px - @padding-main-leftright;
+        height: @height;
+        float: left;
+        
+        .label {
+            position: absolute;
+            height: 30px;
+            top: 100%;
+            margin-top: -22px;
+            color: @subdued-label-color;
+            .relative-font-size(22.5px, @default-font-size);
+			font-weight:bold;
+        }
+    }
+    
+    .graphic {
+        width: 625px;
+        height: @height;
+        float: left;
+    }
+    
+    text {
+        font-family: @LubalinDemi, serif;
+        .relative-font-size(26px, @default-font-size);
+        font-weight: normal;
+    }
+    
+    #hardware {
+        path, rect, text { fill: @hardware-color; }
+    }
+    
+    #software {
+        path, rect, text { fill: @software-color; }
+    }
+}
+
+.data-categories {
+    margin-top: 21px;
+    @margin-between-topics: 42px;
+    margin-left: 134px - @padding-main-leftright - (@margin-between-topics / 2);
+    width: 100%;
+    overflow: hidden;
+    
+    div.label {
+        margin-top: 0px;
+        height: 64px;
+        width: 105px + @margin-between-topics;
+        float: left;
+        text-align: center;
+        
+        img {
+            display:inline;
+            border: none;
+        }
+        
+        .desc {
+            margin-top:8px;
+            text-align: center;
+            .relative-font-size(14px, @default-font-size);
+            width: 100%;
+        }
+    }
+    
+    div.label:first-child {
+        margin-left: 0;
+    }
+}
+
+.legend {
+    margin-top: 68px;
+    width: 100%;
+    overflow: hidden;
+    
+    .controls {
+        position: relative;
+        float: left;
+        width: 50%;
+        text-align: center;
+
+        .label {
+            margin-bottom: 20px;
+            .relative-font-size(17px, @default-font-size);
+			font-weight:bold;
+            color: @subdued-label-color;
+        }
+        
+        .slider { left: 55px; }
+        
+        /*.slider { width: 279px; left: 50px; }
+        .ui-widget-content { background: @scroll-track; }
+        .ui-state-default { background: @scroll-handle; }
+        .ui-slider { position: relative; }
+        .ui-slider .ui-slider-handle { outline: none; position: absolute; z-index: 2; width: 39px; height: 15px; cursor: hand; .border-radius (8px); }
+        .ui-slider .ui-slider-range { position: absolute; z-index: 1; display: block; background-position: 0 0; }
+        .ui-slider-horizontal { height: 11px; }
+        .ui-slider-horizontal .ui-slider-handle { top: (11px - 15) / 2; margin-left: (0px - 39) / 2; }
+        .ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }*/
+
+        ul { 
+            margin: 1em 0 0 0;
+            padding: 0;
+            list-style-type: none;
+
+            li {
+                display: inline;
+                margin-left: 11em;
+                padding: 0;
+                list-style: none;
+
+                a {
+                    color: @default-text-color;
+                    .relative-font-size(14px, @default-font-size);
+                    text-decoration: none;
+                }
+            }
+
+            li:first-child { 
+                margin-left: 0;
+            }
+        }
+    }
+    
+    .compared-topics {
+        float: left;
+        width: 50%;
+        
+        div.label {
+            margin-top: 0px;
+            height: auto;
+            width: 105px;
+            float: left;
+            text-align: center;
+
+            img {
+                display:inline;
+                border: none;
+            }
+
+            .desc {
+                width: 100%;
+                margin-bottom: 14px;
+                color: @subdued-label-color;
+                text-align: center;
+                .relative-font-size(16px, @default-font-size);
+				font-weight:bold;
+            }
+        }
+        
+        div.label:first-child {
+            margin-left: 44px;
+            margin-right: 44px;
+        }
+    }
+}
+
+.footer {
+    margin-top: 62px;
+    .relative-font-size(10px, @default-font-size);
+    color: @footer-color;
+}

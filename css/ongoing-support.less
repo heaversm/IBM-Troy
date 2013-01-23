@@ -1,0 +1,71 @@
+@os-width: 460px;
+@os-height: 530px;
+@background-blue: #054366;
+@lub-demi: 'ITCLubalinGraphStdDemi';
+@lub-book: 'ITCLubalinGraphStdBook';
+
+.opacity(@opacityVal: 1, @opacityPerc:1){ filter: alpha(opacity=@opacityPerc); -moz-opacity: @opacityVal; -khtml-opacity: @opacityVal; opacity: @opacityVal; }
+
+#cf { position:absolute; left:45px; top:465px; }
+
+#ongoing-support { 
+	ul { list-style:none; margin:0; padding: 0; }
+	li { float:left; }
+	
+	width: @os-width; height: @os-height; background-color: @background-blue; font: normal 16px 'Helvetica', serif; color: #fff; 
+	.chart { margin-top: 10px; min-height:185px; }
+	.container { padding: 25px 30px 0 30px; }
+	.header h1 { font-size: 27px; margin:0; line-height:28px; font: normal 27px @lub-demi , serif; }
+	p { font: normal 16px 'Helvetica',serif; color: #E6E7E8; margin-top:8px; }
+	
+	.cats { margin: 20px 0 25px 0; }
+	.cat { height: 56px; display:inline-block; color: #E6E7E8; font-size:12px; overflow:hidden; margin-left: 35px; }
+	.cat:first-child { margin-left:0; }
+	.cat .text { display:block; margin-top:40px; font-weight:bold; }
+	.cat.capacity { background:url('../images/ongoing-support/adding-capacity.png') no-repeat center top; }
+	.cat.tuning { background:url('../images/ongoing-support/tuning.png') no-repeat center top; }
+	.cat.patches { background:url('../images/ongoing-support/patches.png') no-repeat center top; }
+	.cat.retesting { background:url('../images/ongoing-support/retesting.png') no-repeat center top; }
+	
+	.controls { border-top: 1px solid rgba(255,255,255,.3); padding-top:25px; }
+	.slider_container { display:inline-block; padding-right: 30px; float:left; }
+	.slider_container .slider { width: 164px; margin-left:10px; }
+	.ui-slider .ui-slider-handle { width: 22px; margin-left:-11px	; }
+	ul#ongoing-options { margin-top:10px; font-size:12px; width:184px; }
+	#ongoing-options .option { cursor:pointer; }
+	#ongoing-options li { float:left; }
+	#ongoing-options li.last { float:right; }
+	
+	.key_container { float:left; padding-left:20px; border-left: 1px solid rgba(255,255,255,.4); }
+	.key_container li { float:left; height: 52px; width:52px; }
+	.key_container li.last { float:right; }
+	.key_item { font: bold 11px 'Helvetica', serif; color: #63849a; }
+	.key_item.hardware { background: url('../images/ongoing-support/hardware.png') no-repeat center bottom; }
+	.key_item.software { background: url('../images/ongoing-support/software.png') no-repeat center bottom; margin-left: 25px; }
+	
+	.citation { font-size:9px; color: #E6E7E8; margin: 25px 20px 0 20px; }
+	.clear_both { clear:both; }
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'ITCLubalinGraphStdBook';
+    src: url('../fonts/lubalin/lubalingraphstd-book-webfont.eot');
+    src: url('../fonts/lubalin/lubalingraphstd-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lubalin/lubalingraphstd-book-webfont.woff') format('woff'),
+         url('../fonts/lubalin/lubalingraphstd-book-webfont.ttf') format('truetype'),
+         url('../fonts/lubalin/lubalingraphstd-book-webfont.svg#ITCLubalinGraphStdBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITCLubalinGraphStdDemi';
+    src: url('../fonts/lubalin/lubalingraphstd-demi-webfont.eot');
+    src: url('../fonts/lubalin/lubalingraphstd-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.woff') format('woff'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.ttf') format('truetype'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.svg#ITCLubalinGraphStdDemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

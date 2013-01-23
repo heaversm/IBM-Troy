@@ -1,0 +1,27 @@
+var IBMData = {
+    timeSpent: {
+        projects: [
+            { hardware: [101, 203, 141, 71], software: [129, 214, 130, 79] },
+            { hardware: [161, 219, 123, 64], software: [181, 239, 154, 71] },
+            { hardware: [192, 44, 230, 201], software: [171, 56, 232, 186] }
+        ]
+    },
+    
+        projectDelay: {
+        projects: [
+            {hardware: [], software: [], both: []},
+            {hardware: [], software: [], both: []},
+            {hardware: [], software: [], both: []}
+        ]
+    },
+
+	budgetSchedule: {
+        metrics: [
+            { budget: [23,25], schedule: [23,34] } //WORLD, US
+        ]
+    },
+    downtime: {},
+    ongoingSupport: {},
+    moneyTime: {},
+    projectDelay: {}
+}

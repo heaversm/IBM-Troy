@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/lib/jquery-ui
+END
+jquery-ui.css
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/lib/jquery-ui/jquery-ui.css
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/lib/jquery-ui/LICENSE
+END
+jquery-ui.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/lib/jquery-ui/jquery-ui.min.js
+END

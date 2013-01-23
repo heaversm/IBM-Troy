@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=IE8"><!-- enable chrome frame for IE8 and below, if available-->
+    <title>Project Delays</title>
+    <script src="../js/less-1.3.0.min.js"></script>
+    <script src="../js/jquery-1.7.2.min.js"></script>
+    <script src="../js/jquery-ui-1.8.18.custom.min.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/d3.v2.min.js"></script>
+    <script src="../js/ibm-data.js"></script>
+	<script src="../js/modernizr.custom.69344.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/project-delay.css"/>
+
+  </head>
+ <body>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+	<script>
+		function cfClick(){
+			CFInstall.check({
+				mode: "popup"
+	       	});
+		}
+	</script>
+
+	<button id="cf" onclick="cfClick()">View Interactive Version</button>
+
+	<![endif]-->
+ 	<div id="project-delays">
+        <div class="container"> 
+            <div class="title">
+				<h1 class="header">Reasons for IT project delay</h1> 
+            	<h2 class="sub-header">A view of the top hardware and software </br>delays in deploying your IT project.</h2>
+			</div>
+            <div id="chart"></div>
+            <div class="reasons">
+					<div class="reason troubleshooting">Troubleshooting &amp; Tuning </div>
+					<div class="reason app">Application integration</div>
+					<div class="reason infrastructure twoline alt">Infrastructure software integration</div>
+					<div class="reason middleware">Middleware integration</div>
+					<div class="reason install alt">Install &amp; Configure</div>
+					<div class="reason deploy">Deploy</div>
+            </div>
+			<div class="slider-container">
+                <div class="slider"></div>
+                <div class="options">
+                    <div class="option hardware-icon" data-count="0">HARDWARE</div>
+                    <div class="option software-icon" data-count="1">SOFTWARE</div>
+                    <div class="option both-icon" data-count="2">BOTH</div>
+                </div>
+            </div>
+            <div id="disclaimer">Based on a global survey of over 500 IT professionals </br>conducted by Forrester Consulting in 2011</div>
+        </div>
+    </div>
+
+	<script type="text/javascript">
+	Modernizr.load({
+	  	test: Modernizr.svg,
+		yep: '../js/project-delay.js',
+	  	nope: '../js/project-delay-static.js',
+	});
+	</script>
+
+ 	
+ </body>
+ </html>

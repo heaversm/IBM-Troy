@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=IE8"><!-- enable chrome frame for IE8 and below, if available-->
+    <title>IBM, Downtime</title>
+    <link rel="stylesheet/less" type="text/css" href="../css/downtime.less">
+    <link rel="stylesheet" href="../css/slider.css">
+    <script src="../js/modernizr.custom.69344.js"></script>
+    <script src="../js/less-1.3.0.min.js"></script>
+    <script src="../js/jquery-1.7.2.min.js"></script>
+    <script src="../js/jquery-ui-1.8.18.custom.min.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/d3.v2.min.js"></script>
+    <script src="../js/ibm-data.js"></script>
+</head>
+<body>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+	<script>
+		function cfClick(){
+			CFInstall.check({
+				mode: "popup"
+	       	});
+		}
+	</script>
+	
+	<button id="cf" onclick="cfClick()">View Interactive Version with Chrome Frame</button>
+	
+	<![endif]-->
+    <div id="downtime">
+        <div class="container">
+            <div class="header">
+                <h1>Downtime</h1>
+                <h2><span class="leading">55%</span> IT professionals experience downtime, that can last from minutes to over a week after an infrastructure upgrade.</h2>
+            </div>
+            <div class="controls">
+    			<ul id="options">
+    				<li><a href="#" class="option one" data-count="0">First Upgrade</a></li>
+    				<li><a href="#" class="option two" data-count="1">Second Upgrade</a></li>
+    				<li><a href="#" class="option three" data-count="2">Both</a></li>
+    			</ul>
+    			<div class="false-bkgd">
+                    <div class="slider"></div>
+                </div>
+			</div>
+            <div class="data-categories">
+                <div class="label">
+                    <img src="../images/downtime/time1.png" width="28" height="31" alt="Design icon">
+                    <div class="desc">&lt; 30 min.</div>
+                </div>
+                <div class="label">
+                    <img src="../images/downtime/time2.png" width="28" height="31" alt="Implement icon">
+                    <div class="desc">30 - 60 min.</div>
+                </div>
+                <div class="label">
+                    <img src="../images/downtime/time3.png" width="25" height="31" alt="Deploy icon">
+                    <div class="desc">1 - 24 hrs</div>
+                </div>
+                <div class="label">
+                    <img src="../images/downtime/time4.png" width="31" height="31" alt="Troubleshooting icon">
+                    <div class="desc">1 - 7 days</div>
+                </div>
+                <div class="label">
+                    <img src="../images/downtime/time5.png" width="31" height="31" alt="Troubleshooting icon">
+                    <div class="desc">&gt; 1 week</div>
+                </div>
+            </div>
+            <div class="chart">
+                <div class="graphic"></div>
+            </div>
+            <div class="footer">
+                Based on a global survey of over 500 IT professionals conducted by Forrester Consulting in 2011
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+	Modernizr.load({
+	  	test: Modernizr.svg,
+		yep: '../js/downtime.js',
+	  	nope: '../js/downtime-static.js',
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'ITCLubalinGraphStdDemi';
+    src: url('../fonts/lubalin/lubalingraphstd-demi-webfont.eot');
+    src: url('../fonts/lubalin/lubalingraphstd-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.woff') format('woff'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.ttf') format('truetype'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.svg#ITCLubalinGraphStdDemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@downtime-width: 460px;
+@downtime-height: 567px;
+@padding-main-topbottom: ((25px / @downtime-height) * @downtime-height);
+@padding-main-leftright: ((33px / @downtime-width) * @downtime-width);
+@default-font-size: 16px;
+@background-blue: #054467;
+@default-text-color: #FFF;
+@first-upgrade-color: #85BE48;
+@second-upgrade-color: #86CDE6;
+@scroll-track: rgb(155, 180, 194);
+@scroll-handle: #FFF;
+@footer-color: #E6E7E8;
+@subdued-label-color: rgb(86, 124, 146);
+@HelveticaMed: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+@LubalinDemi: "ITCLubalinGraphStdDemi";
+
+.relative-font-size (@target, @context) {
+    font-size: (@target / @context) * @context;
+}
+
+.border-radius (@rad) { 
+    -moz-border-radius: @rad;
+    -webkit-border-radius: @rad;
+    -khtml-border-radius: @rad;
+    border-radius: @rad;
+}
+
+body, html, h1, h2 { margin:0; padding:0; }
+
+#cf { position:absolute; left:94px; top:154px; }
+
+#downtime {
+    width: @downtime-width;
+    height: @downtime-height;
+    background-color: @background-blue;
+    font: normal @default-font-size @HelveticaMed;
+    color: @default-text-color;
+}
+
+.container {
+    padding: @padding-main-topbottom @padding-main-leftright;
+}
+
+.header {
+    h1 {
+        font-family: @LubalinDemi, serif;
+        .relative-font-size(28px, @default-font-size);
+        font-weight: normal;
+    }
+
+    h2 {
+        .relative-font-size(13px, @default-font-size);
+        font-weight: normal;
+        
+        .leading {
+            font-size: 24px;
+        }
+    }
+}
+
+.controls {
+    position: relative;
+
+    .label {
+        margin-bottom: 20px;
+        .relative-font-size(17px, @default-font-size);
+		font-weight:bold;
+        color: @subdued-label-color;
+    }
+    
+    .false-bkgd {
+        width: 100%;
+        background: @scroll-track;
+    }
+    
+    .slider {
+        width: 84%;
+        margin-left: 8%;
+    }
+    
+    .ui-widget-content {
+        background: @scroll-track;
+    }
+
+    ul { 
+        margin: 1.5em 0 1.5em 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: inline;
+            margin: 0 0 0 3em;
+            padding: 0;
+
+            a {
+                color: @second-upgrade-color;
+                .relative-font-size(17px, @default-font-size);
+                text-decoration: none;
+            }
+        }
+
+        li:first-child { 
+            margin-left: 0;
+            a { color: @first-upgrade-color; }
+        }
+        
+        li:last-child {
+            a { color: @default-text-color; }
+        }
+    }
+}
+
+.data-categories {
+    width: 96%;
+    margin-top: 2em;
+    margin-left: 5px;
+    overflow: hidden;
+    
+    div.label {
+        margin-top: 0px;
+        margin-left: 27px;
+        height: auto;
+        float: left;
+        text-align: center;
+        
+        img {
+            display:inline;
+            border: none;
+        }
+        
+        .desc {
+            margin-top:8px;
+            text-align: center;
+            .relative-font-size(12px, @default-font-size);
+            width: 100%;
+        }
+    }
+    
+    div.label:first-child {
+        margin-left: 0;
+    }
+}
+
+.graphic {
+    width: 394px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 6px;
+    
+    text {
+        font-family: @LubalinDemi, serif;
+        .relative-font-size(13px, @default-font-size);
+        font-weight: normal;
+    }
+
+    #first {
+        path, rect { fill: @first-upgrade-color; }
+        text { fill: @default-text-color; }
+    }
+
+    #second {
+        path, rect { fill: @second-upgrade-color; }
+        text { fill: @background-blue; }
+    }
+    
+    .coverup {
+        fill: @background-blue;
+    }
+}
+
+
+.footer {
+    margin-top: 20px;
+    .relative-font-size(8px, @default-font-size);
+    color: @footer-color;
+}

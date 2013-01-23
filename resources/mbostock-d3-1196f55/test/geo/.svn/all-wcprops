@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/geo
+END
+albers-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/geo/albers-test.js
+END
+greatArc-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/geo/greatArc-test.js
+END
+equirectangular-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/geo/equirectangular-test.js
+END
+mercator-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/geo/mercator-test.js
+END
+path-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/geo/path-test.js
+END
+azimuthal-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/geo/azimuthal-test.js
+END
+bonne-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/geo/bonne-test.js
+END

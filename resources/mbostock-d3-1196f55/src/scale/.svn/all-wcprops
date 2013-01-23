@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale
+END
+bilinear.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/bilinear.js
+END
+pow.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/pow.js
+END
+scale.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/scale.js
+END
+ordinal.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/ordinal.js
+END
+identity.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/identity.js
+END
+sqrt.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/sqrt.js
+END
+linear.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/linear.js
+END
+category.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/category.js
+END
+nice.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/nice.js
+END
+polylinear.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/polylinear.js
+END
+quantize.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/quantize.js
+END
+log.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/log.js
+END
+quantile.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/scale/quantile.js
+END

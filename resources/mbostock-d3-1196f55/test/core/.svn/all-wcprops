@@ -1,0 +1,509 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core
+END
+round-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/round-test.js
+END
+split-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/split-test.js
+END
+range-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/range-test.js
+END
+selection-datum-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-datum-test.js
+END
+selection-call-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-call-test.js
+END
+selection-on-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-on-test.js
+END
+merge-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/merge-test.js
+END
+xhr-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/xhr-test.js
+END
+last-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/last-test.js
+END
+html-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/html-test.js
+END
+selection-text-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-text-test.js
+END
+selectAll-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selectAll-test.js
+END
+timer-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/timer-test.js
+END
+mean-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/mean-test.js
+END
+quantile-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/quantile-test.js
+END
+selection-each-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-each-test.js
+END
+selection-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-test.js
+END
+transition-test-remove.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-remove.js
+END
+version-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/version-test.js
+END
+transition-test-time.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-time.js
+END
+selection-insert-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-insert-test.js
+END
+first-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/first-test.js
+END
+format-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/format-test.js
+END
+selection-attr-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-attr-test.js
+END
+median-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/median-test.js
+END
+xml-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/xml-test.js
+END
+transition-test-attr.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-attr.js
+END
+zip-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/zip-test.js
+END
+rebind-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/rebind-test.js
+END
+transition-test-select.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-select.js
+END
+selection-node-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-node-test.js
+END
+selection-filter-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-filter-test.js
+END
+bisect-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/bisect-test.js
+END
+transition-test-duration.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-duration.js
+END
+select-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/select-test.js
+END
+text-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/text-test.js
+END
+transition-test-delay.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-delay.js
+END
+selection-selectAll-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-selectAll-test.js
+END
+transition-test-styleTween.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-styleTween.js
+END
+transition-test-selectAll.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-selectAll.js
+END
+selection-classed-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-classed-test.js
+END
+selection-select-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-select-test.js
+END
+descending-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/descending-test.js
+END
+transition-test-attrTween.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-attrTween.js
+END
+formatPrefix-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/formatPrefix-test.js
+END
+selection-property-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-property-test.js
+END
+json-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/json-test.js
+END
+entries-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/entries-test.js
+END
+nest-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/nest-test.js
+END
+rgb-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/rgb-test.js
+END
+transition-test-tween.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-tween.js
+END
+transition-test-text.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-text.js
+END
+ease-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/ease-test.js
+END
+map-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/map-test.js
+END
+functor-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/functor-test.js
+END
+ns-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/ns-test.js
+END
+selection-style-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-style-test.js
+END
+min-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/min-test.js
+END
+max-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/max-test.js
+END
+hsl-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/hsl-test.js
+END
+selection-html-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-html-test.js
+END
+transition-test-each.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-each.js
+END
+transition-test-style.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-style.js
+END
+selection-append-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-append-test.js
+END
+transition-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test.js
+END
+ascending-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/ascending-test.js
+END
+selection-data-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-data-test.js
+END
+selection-order-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-order-test.js
+END
+dispatch-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/dispatch-test.js
+END
+values-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/values-test.js
+END
+selection-enter-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-enter-test.js
+END
+transition-test-call.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-call.js
+END
+sum-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/sum-test.js
+END
+extent-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/extent-test.js
+END
+selection-sort-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-sort-test.js
+END
+keys-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/keys-test.js
+END
+transpose-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transpose-test.js
+END
+selection-remove-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-remove-test.js
+END
+selection-empty-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/selection-empty-test.js
+END
+permute-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/permute-test.js
+END
+transition-test-transition.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-transition.js
+END
+requote-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/requote-test.js
+END
+transition-test-id.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/transition-test-id.js
+END
+interpolate-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/core/interpolate-test.js
+END

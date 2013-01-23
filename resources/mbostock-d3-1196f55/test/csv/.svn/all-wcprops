@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/csv
+END
+format-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/csv/format-test.js
+END
+parse-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/csv/parse-test.js
+END
+csv-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/csv/csv-test.js
+END

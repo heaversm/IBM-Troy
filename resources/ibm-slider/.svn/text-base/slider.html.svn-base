@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Slider</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+			
+			<style>
+				.demo { background: #054366; padding: 20px; }
+				
+				/* SLIDER */
+				.slider { width: 270px; }
+				.ui-widget-content { background: #9198ae; }
+				.ui-state-default { background: #fff; }
+				.ui-slider { position: relative; }
+				.ui-slider .ui-slider-handle { outline: none; position: absolute; z-index: 2; width: 15.185%; height: 1.2em; cursor: default; -moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px; border-radius: 8px; }
+				.ui-slider .ui-slider-range { position: absolute; z-index: 1; display: block; background-position: 0 0; }
+				.ui-slider-horizontal { height: .8em; }
+				.ui-slider-horizontal .ui-slider-handle { top: -.3em; margin-left: -.6em; }
+				.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+			</style>
+	</head>
+
+	<body>
+		<div class="demo">
+			<div class="slider"></div>
+			<ul id="options">
+				<li><a class="option one" data-count="0">Item 1</a></li>
+				<li><a class="option two" data-count="1">Item 2</a></li>
+				<li><a class="option three" data-count="2">Item 3</a></li>
+			</ul>
+		</div><!-- End demo -->
+		<script src="js/slider.js"></script>
+	</body>
+</html>

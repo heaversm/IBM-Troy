@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test
+END
+env-assert.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/env-assert.js
+END
+env-xhr.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/env-xhr.js
+END
+env.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/env.js
+END
+env-fragment.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/env-fragment.js
+END

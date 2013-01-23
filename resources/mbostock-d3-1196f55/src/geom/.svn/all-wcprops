@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/geom
+END
+hull.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/geom/hull.js
+END
+geom.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/geom/geom.js
+END
+polygon.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/geom/polygon.js
+END
+contour.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/geom/contour.js
+END
+quadtree.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/geom/quadtree.js
+END
+voronoi.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/geom/voronoi.js
+END
+delaunay.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/src/geom/delaunay.js
+END

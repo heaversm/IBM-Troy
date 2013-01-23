@@ -1,0 +1,126 @@
+body, html { margin:0; padding:0; }
+
+#cf { position:absolute; left: 220px; top:460px; }
+
+#project-delays{
+	background: #054366; /*054366*/	
+	width: 460px;
+	height: 580px;
+	color: #fff;
+}
+
+#chart{
+	position: absolute;
+	top: 179px;
+	left: -115px;
+	
+	/*float:left;*/
+	
+}
+
+#project-delays .title { position:absolute; top:40px; left:40px; }
+#project-delays h1 { margin: 0; }
+#project-delays h2 { margin: 15px 0 0 0; }
+
+.slider{
+	position: absolute;
+}
+
+.slider-container{ 
+	position:absolute; top: 460px; left: 200px;cursor: pointer;
+}
+.slider {width: 180px; cursor: pointer;}
+.ui-widget-content { background: #9198ae; }
+.ui-state-default { background: #fff; }
+.ui-slider { position: relative; }
+.ui-slider .ui-slider-handle { outline: none; position: absolute; z-index: 2; width: 18.185%; height: .90em; cursor: default; -moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px; border-radius: 8px; }
+.ui-slider .ui-slider-range { position: absolute; z-index: 1; display: block; background-position: 0 0; }
+.ui-slider-horizontal { height: .432em; }
+.ui-slider-horizontal .ui-slider-handle { top: -.3em; margin-left: -.6em; }
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+
+
+.reasons .reason { height: 30px; line-height:30px; padding-left: 35px; max-width:150px; margin-top:5px; font-weight:bold; }
+.reasons .reason.twoline { line-height:15px; }
+.reasons .reason.alt { margin-top:15px; }
+.reasons .troubleshooting { background:url('../images/project-delay/troubleshooting.png') no-repeat left center; }
+.reasons .app { background:url('../images/project-delay/application.png') no-repeat left center; }
+.reasons .infrastructure { background:url('../images/project-delay/infastructure.png') no-repeat left center; }
+.reasons .middleware { background:url('../images/project-delay/middleware.png') no-repeat left center; }
+.reasons .install { background:url('../images/project-delay/install.png') no-repeat left center; }
+.reasons .deploy { background:url('../images/project-delay/deploy.png') no-repeat left center; }
+
+.reasons{
+	position: absolute;
+	top: 183px;
+	left: 250px;
+	/*margin-top: 60px;
+	margin-left: 250px;*/
+	width: 200px;
+}
+
+.reason{
+	background: transparent;
+	z-index: 9999;
+	font-size: 12px; 	
+	font-family: Helvetica;
+	overflow: visible;
+	color: #E6E7E8;
+}
+
+
+.options { height: 60px; margin-top:12px; font-family: 'Helvetica',serif; font-size:10px; font-weight:bold; }
+.options .option { color: #E6E7E8; padding-top: 35px; display:inline-block; cursor: pointer; color: #E6E7E8;}
+
+.hardware-icon{ background: url('../images/project-delay/hardware.png') no-repeat top center; }
+
+.software-icon{ background: url('../images/project-delay/software.png') no-repeat top center; margin-left: 7px; }
+
+.both-icon{ background: url('../images/project-delay/both.png') no-repeat top center; margin-left: 25px; }
+
+#disclaimer{
+	position: absolute;
+	top: 550px;
+	left: 159px;
+	/*margin-top: 415px;
+	margin-left: 140px;*/
+	font-size: 9px; 
+	font-family: Helvetica;
+	color: rgb(230,231,232);
+	color: rgba(230,231,232,.7);	
+}
+
+#project-delays .slider { width: 135px; margin-left:30px; }
+
+h1 {     
+	font-family: 'ITCLubalinGraphStdDemi', 'Helvetica';
+	font-size: 28px; color: #E6E7E8;/* 36px/16px */
+}
+
+h2 { font-family: Helvetica, serif; font-weight: normal;font-size: 16px; color: #E6E7E8;/* 21px/16px */ }
+
+text { font-family: 'ITCLubalinGraphStdDemi';
+    }
+
+/* FONTS */
+@font-face {
+    font-family: 'ITCLubalinGraphStdBook';
+    src: url('../fonts/lubalin/lubalingraphstd-book-webfont.eot');
+    src: url('../fonts/lubalin/lubalingraphstd-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lubalin/lubalingraphstd-book-webfont.woff') format('woff'),
+         url('../fonts/lubalin/lubalingraphstd-book-webfont.ttf') format('truetype'),
+         url('../fonts/lubalin/lubalingraphstd-book-webfont.svg#ITCLubalinGraphStdBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITCLubalinGraphStdDemi';
+    src: url('../fonts/lubalin/lubalingraphstd-demi-webfont.eot');
+    src: url('../fonts/lubalin/lubalingraphstd-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.woff') format('woff'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.ttf') format('truetype'),
+         url('../fonts/lubalin/lubalingraphstd-demi-webfont.svg#ITCLubalinGraphStdDemi') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

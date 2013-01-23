@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/svg
+END
+line-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/svg/line-test.js
+END
+area-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/svg/area-test.js
+END
+line-radial-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/svg/line-radial-test.js
+END
+area-radial-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/svg/area-radial-test.js
+END
+brush-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/svg/brush-test.js
+END
+axis-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/svg/axis-test.js
+END
+arc-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/svg/arc-test.js
+END
+symbol-test.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/troy/!svn/ver/6/trunk/resources/mbostock-d3-1196f55/test/svg/symbol-test.js
+END
